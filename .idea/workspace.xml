@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Google-Java-Format.xml Added">
+    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Set editable address">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/AEC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/AEC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioInputDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioInputDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioOutputDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioOutputDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/ClientGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/Lobby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/ServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/ServerGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/AEC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/AEC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioInputDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioInputDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioOutputDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioOutputDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/Lobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/Lobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ServerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ServerGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -171,7 +179,7 @@
       <recent name="C:\Users\Coen\IdeaProjects\VoIP\src\main\java\com\arman\voip" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerGUI">
+  <component name="RunManager" selected="Application.VoIPClient">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -273,10 +281,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerGUI" />
-        <item itemvalue="Application.ClientGUI" />
         <item itemvalue="Application.VoIPClient" />
         <item itemvalue="Application.VoIPServer" />
+        <item itemvalue="Application.ClientGUI" />
+        <item itemvalue="Application.ServerGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +299,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526840474128</updated>
-      <workItem from="1676321810785" duration="3218000" />
+      <workItem from="1676321810785" duration="4318000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1676321885744</created>
@@ -314,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676321965049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Set editable address">
+      <created>1676325077562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676325077562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -370,7 +385,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Repo Init" />
     <MESSAGE value="Google-Java-Format.xml Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google-Java-Format.xml Added" />
+    <MESSAGE value="Set editable address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set editable address" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/git/ss/softwaresystems/src/ss/week7/challenge/BadCookieCrypto.java" />

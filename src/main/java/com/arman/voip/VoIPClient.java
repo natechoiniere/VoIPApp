@@ -6,10 +6,8 @@ package com.arman.voip;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.Socket;
-import java.net.SocketException;
-import java.net.UnknownHostException;
+import java.net.*;
+import java.util.Scanner;
 
 public class VoIPClient extends Thread {
 
@@ -24,14 +22,20 @@ public class VoIPClient extends Thread {
     }
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter hostname to connect to:");
+        String hostName = input.nextLine();
+        System.out.println("Enter port to connect to:");
+        int port = input.nextInt();
         InetAddress host = null;
+
         try {
-            host = InetAddress.getLocalHost();
+            host = InetAddress.getByName(hostName);
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
         try {
-            VoIPClient client = new VoIPClient(host, 2727);
+            VoIPClient client = new VoIPClient(host, port);
             client.start();
         } catch (IOException e) {
             e.printStackTrace();

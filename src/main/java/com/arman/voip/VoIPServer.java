@@ -4,34 +4,44 @@
 package com.arman.voip;
 
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class VoIPServer extends Thread {
 
     protected ServerSocket sock;
-    private int port;
+    private static int port;
+    private static String host;
     private List<VoIPClientHandler> clientHandlers;
     private AtomicInteger clientsOnServer;
 
-    public VoIPServer(int port) {
+    public VoIPServer(String host, int port) {
+        this.host = host;
         this.port = port;
         this.clientHandlers = new ArrayList<>();
         this.clientsOnServer = new AtomicInteger(0);
     }
 
     public static void main(String[] args) {
-        VoIPServer server = new VoIPServer(2727);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter desired hostname:");
+        host = input.nextLine();
+        System.out.println("Enter desired port:");
+        port = input.nextInt();
+        VoIPServer server = new VoIPServer(host, port);
         server.start();
     }
 
     public void run() {
         VoIPClientHandler handler;
         try {
-            sock = new ServerSocket(port);
+            InetAddress hoster = InetAddress.getByName(host);
+            sock = new ServerSocket(port, 0, hoster);
             while (true) {
                 Socket client = sock.accept();
                 handler = new VoIPClientHandler(this, client);

@@ -1,3 +1,6 @@
+/*
+    Audio Input
+ */
 package com.arman.voip;
 
 import javax.sound.sampled.*;

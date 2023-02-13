@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="" />
+    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Google-Java-Format.xml Added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/AEC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/AEC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioInputDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioInputDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioOutputDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/AudioOutputDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/ClientGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/Lobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/ServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/ServerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/Server.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,9 +98,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
     <option name="width" value="978" />
@@ -134,8 +153,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChessGame" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
@@ -150,7 +171,7 @@
       <recent name="C:\Users\Coen\IdeaProjects\VoIP\src\main\java\com\arman\voip" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VoIPClient">
+  <component name="RunManager" selected="Application.ServerGUI">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -252,10 +273,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerGUI" />
+        <item itemvalue="Application.ClientGUI" />
         <item itemvalue="Application.VoIPClient" />
         <item itemvalue="Application.VoIPServer" />
-        <item itemvalue="Application.ClientGUI" />
-        <item itemvalue="Application.ServerGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -270,8 +291,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526840474128</updated>
-      <workItem from="1676321810785" duration="25000" />
+      <workItem from="1676321810785" duration="3218000" />
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1676321885744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676321885744</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Repo Init">
+      <created>1676321944296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676321944296</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Google-Java-Format.xml Added">
+      <created>1676321965049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676321965049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,10 +352,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
+    <MESSAGE value="Test" />
+    <MESSAGE value="Repo Init" />
+    <MESSAGE value="Google-Java-Format.xml Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google-Java-Format.xml Added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/git/ss/softwaresystems/src/ss/week7/challenge/BadCookieCrypto.java" />

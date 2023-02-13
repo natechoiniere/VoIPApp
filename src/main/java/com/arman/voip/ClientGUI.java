@@ -1,3 +1,6 @@
+/*
+    Client GUI (text)
+ */
 package com.arman.voip;
 
 import javax.swing.*;

@@ -71,8 +71,8 @@ public class ServerGUI extends JFrame implements ActionListener, NetworkUI {
     private JPanel createStartPanel() {
         JPanel start = new JPanel(new GridLayout(2, 2));
         JLabel textAddress = new JLabel("Address: ");
-        JTextField inputAddress = new JTextField(getHostAddress(), 12);
-        inputAddress.setEditable(false);
+        JTextField inputAddress = new JTextField("localhost", 12);
+        inputAddress.setEditable(true);
         JLabel textPort = new JLabel("Port: ");
         port = new JTextField("2727", 5);
         start.add(textAddress);

@@ -1,3 +1,6 @@
+/*
+    Lobby (text)
+ */
 package com.arman.voip;
 
 import com.arman.voip.messages.Message;

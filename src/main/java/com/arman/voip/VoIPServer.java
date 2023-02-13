@@ -41,8 +41,7 @@ public class VoIPServer extends Thread {
     public void run() {
         VoIPClientHandler handler;
         try {
-            InetAddress hoster = InetAddress.getByName(host);
-            sock = new ServerSocket(port, 0, hoster);
+            sock = new ServerSocket(port);
             while (true) {
                 Socket client = sock.accept();
                 handler = new VoIPClientHandler(this, client);
@@ -51,6 +50,7 @@ public class VoIPServer extends Thread {
                 handler.start();
             }
         } catch (IOException e) {
+            e.printStackTrace();
             shutdown();
         }
     }

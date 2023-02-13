@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Set editable address">
+    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Google-Java-Format.xml Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/AEC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/AEC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioInputDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioInputDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioOutputDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/AudioOutputDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ClientGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/Lobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/Lobby.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/ServerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/ServerGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPClientHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>

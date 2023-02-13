@@ -27,6 +27,7 @@ public class VoIPClient extends Thread {
         String hostName = input.nextLine();
         System.out.println("Enter port to connect to:");
         int port = input.nextInt();
+        input.close();
         InetAddress host = null;
 
         try {

@@ -33,6 +33,7 @@ public class VoIPServer extends Thread {
         host = input.nextLine();
         System.out.println("Enter desired port:");
         port = input.nextInt();
+        input.close();
         VoIPServer server = new VoIPServer(host, port);
         server.start();
     }

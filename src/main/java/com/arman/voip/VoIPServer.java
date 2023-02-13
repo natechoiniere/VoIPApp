@@ -4,9 +4,7 @@
 package com.arman.voip;
 
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -57,6 +55,9 @@ public class VoIPServer extends Thread {
 
     public void broadcast(byte[] bytes) {
         for (int i = 0; i < this.clientHandlers.size(); i++) {
+            if (this.clientHandlers.get(i).getServer().getHost() == this.host) {
+                continue;
+            }
             this.clientHandlers.get(i).sendMessage(bytes);
         }
     }
@@ -79,6 +80,10 @@ public class VoIPServer extends Thread {
         } catch (IOException e) {
         }
         System.exit(0);
+    }
+
+    public String getHost() {
+        return this.host;
     }
 
 }

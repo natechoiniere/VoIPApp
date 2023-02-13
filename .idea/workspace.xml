@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Google-Java-Format.xml Added">
+    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Set editable address">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arman/voip/VoIPServer.class" afterDir="false" />
     </list>
@@ -36,7 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>

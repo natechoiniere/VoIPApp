@@ -44,4 +44,8 @@ public class VoIPClientHandler extends Thread {
         this.server.remove(this);
     }
 
+    public VoIPServer getServer() {
+        return this.server;
+    }
+
 }

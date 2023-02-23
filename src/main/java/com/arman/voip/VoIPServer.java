@@ -55,9 +55,6 @@ public class VoIPServer extends Thread {
 
     public void broadcast(byte[] bytes) {
         for (int i = 0; i < this.clientHandlers.size(); i++) {
-            if (this.clientHandlers.get(i).getServer().getHost() == this.host) {
-                continue;
-            }
             this.clientHandlers.get(i).sendMessage(bytes);
         }
     }

@@ -35,7 +35,7 @@ public class VoIPClientHandler extends Thread {
     public void sendMessage(byte[] bytes) {
         try {
             this.out.write(bytes);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

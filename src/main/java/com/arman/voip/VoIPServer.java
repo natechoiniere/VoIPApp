@@ -42,7 +42,7 @@ public class VoIPServer extends Thread {
             sock = new ServerSocket(port);
             while (true) {
                 Socket client = sock.accept();
-                handler = new VoIPClientHandler(this, client);
+                handler = new VoIPClientHandler(this, client, clientsOnServer.intValue());
                 add(handler);
                 System.out.println("[client no. " + clientsOnServer + " connected.]");
                 handler.start();
@@ -53,9 +53,12 @@ public class VoIPServer extends Thread {
         }
     }
 
-    public void broadcast(byte[] bytes) {
+    public void broadcast(byte[] bytes, int id) {
         for (int i = 0; i < this.clientHandlers.size(); i++) {
-            this.clientHandlers.get(i).sendMessage(bytes);
+            VoIPClientHandler curr = this.clientHandlers.get(i);
+            if(id != curr.getClientID()) {
+                this.clientHandlers.get(i).sendMessage(bytes);
+            }
         }
     }
 

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Fixed redundant echo in VoIPServer">
+    <list default="true" id="39f5f584-c99f-43b6-82b0-f2b7a6a25419" name="Default" comment="Set editable address">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/voip/VoIPServer.java" afterDir="false" />
@@ -161,7 +162,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -289,8 +290,6 @@
       <option name="presentableId" value="Default" />
       <updated>1526840474128</updated>
       <workItem from="1676321810785" duration="4318000" />
-      <workItem from="1676352208516" duration="298000" />
-      <workItem from="1677195960357" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1676321885744</created>
@@ -320,14 +319,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676325077562</updated>
     </task>
-    <task id="LOCAL-00005" summary="Fixed redundant echo in VoIPServer">
-      <created>1676328561178</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676328561178</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,6 +367,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -384,8 +377,7 @@
     <MESSAGE value="Repo Init" />
     <MESSAGE value="Google-Java-Format.xml Added" />
     <MESSAGE value="Set editable address" />
-    <MESSAGE value="Fixed redundant echo in VoIPServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed redundant echo in VoIPServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set editable address" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/git/ss/softwaresystems/src/ss/week7/challenge/BadCookieCrypto.java" />

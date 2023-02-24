@@ -13,11 +13,13 @@ public class VoIPClientHandler extends Thread {
     private final VoIPServer server;
     private final InputStream in;
     private final OutputStream out;
+    private final int id;
 
-    public VoIPClientHandler(VoIPServer server, Socket sock) throws IOException {
+    public VoIPClientHandler(VoIPServer server, Socket sock, int id) throws IOException {
         this.server = server;
         this.in = new BufferedInputStream(sock.getInputStream());
         this.out = new BufferedOutputStream(sock.getOutputStream());
+        this.id = id;
     }
 
     public void run() {
@@ -25,7 +27,7 @@ public class VoIPClientHandler extends Thread {
         try {
             while (this.in.read(bytes) != 0) {
                 System.out.println(Arrays.toString(bytes));
-                this.server.broadcast(bytes);
+                this.server.broadcast(bytes, id);
             }
         } catch (IOException e) {
             shutdown();
@@ -46,6 +48,10 @@ public class VoIPClientHandler extends Thread {
 
     public VoIPServer getServer() {
         return this.server;
+    }
+
+    public int getClientID() {
+        return this.id;
     }
 
 }
